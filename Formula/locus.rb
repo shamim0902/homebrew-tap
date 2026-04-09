@@ -9,7 +9,9 @@ class Locus < Formula
   depends_on "go" => :build
 
   def install
-    system "go", "build", *std_go_args(ldflags: "-s -w"), "./cmd/locus/"
+    ENV["CGO_ENABLED"] = "0"
+    system "go", "build", "-trimpath", "-ldflags", "-s -w",
+           "-o", bin/"locus", "./cmd/locus/"
   end
 
   test do
