@@ -2,7 +2,7 @@ class Locus < Formula
   desc "AI memory engine. Store everything, find anything."
   homepage "https://github.com/shamim0902/locus"
   url "https://github.com/shamim0902/locus/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "9edbe7ab45a506bc2e9a7e8404d5f70d0dfee39e8c895dc3bb58779ed680e3c1"
+  sha256 "ca3d6db646b10948472cd28ef5c795c7649db86ac31d00abeb4e346e382fe798"
   version "0.1.0"
   license "MIT"
 
