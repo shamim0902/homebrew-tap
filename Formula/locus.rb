@@ -1,9 +1,9 @@
 class Locus < Formula
   desc "AI memory engine. Store everything, find anything."
   homepage "https://github.com/shamim0902/locus"
-  url "https://github.com/shamim0902/locus/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "965ca22db260e143c20ed41c06da8f31358b60d74aadeb83f502e7c31037e5e9"
-  version "0.1.0"
+  url "https://github.com/shamim0902/locus/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "3d1b40d1695735b173a2fc1ecb433ce28cea8f64bf74e4e9e14fe16e198543b1"
+  version "0.2.0"
   license "MIT"
 
   depends_on "go" => :build
